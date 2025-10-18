@@ -2,6 +2,27 @@
   "name": "bunjs-examples",
   "module": "index.ts",
   "type": "module",
+  "version": "0.0.1",
+	"description": "A collection of practical examples showcasing the power and simplicity of Bun.js, including a clustered visit counter and a lightweight blog. Created by César Casas at Stock42.",
+  "author": "César Casas <cesar@stock42.io> (https://www.linkedin.com/in/cesarcasas/)",
+	"license": "MIT",
+	"homepage": "https://github.com/stock42/bunjs-examples",
+
+	"scripts": {
+		"blog": "bun run src/blog/index",
+		"visit-counter": "bun run src/visit-counter/visit-counter-cluster"
+	},
+	"keywords": [
+    "bun",
+    "bunjs",
+    "javascript",
+    "typescript",
+    "redis",
+    "sqlite",
+    "s3",
+    "web-development",
+    "examples"
+  ],
   "private": true,
   "devDependencies": {
     "@types/bun": "latest"
